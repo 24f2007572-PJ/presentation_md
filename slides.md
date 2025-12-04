@@ -1,3 +1,5 @@
+<!-- directive-name: slides -->
+
 <!-- marp: true -->
 <!-- theme: custom-theme -->
 <!-- paginate: true -->

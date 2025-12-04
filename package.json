@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "marp slides.md -o slides.pdf"
+  }
+}

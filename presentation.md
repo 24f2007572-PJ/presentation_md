@@ -1,17 +1,19 @@
 ---
-marp: true
-title: Product Documentation Overview
 author: 24f2007572@ds.study.iitm.ac.in
 paginate: true
-theme: custom-theme
+title: Product Documentation Overview
 ---
-<!-- theme: custom-theme -->
-<!-- paginate: true -->
 
-<!--
-Custom Theme Definition
-You can store this at the top of the file or move it to a separate CSS file.
--->
+```{=html}
+<!-- marp: true -->
+```
+```{=html}
+<!-- paginate: true -->
+```
+```{=html}
+<!-- theme: custom-theme -->
+```
+```{=html}
 <style>
 section {
   font-family: "Segoe UI", sans-serif;
@@ -21,104 +23,93 @@ h1, h2, h3 {
   color: #005f9e;
 }
 
-img.full-bg {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-footer {
-  color: #888;
-  font-size: 0.8rem;
-}
-
-/* Custom highlight box */
 .highlight-box {
   background: #e6f2ff;
-  padding: 12px;
+  padding: 14px;
   border-left: 6px solid #005f9e;
   border-radius: 4px;
 }
 </style>
-
-<!-- Theme Configuration -->
+```
+```{=html}
 <style id="theme">
 :root {
   --background-color: #ffffff;
   --text-color: #222;
   --heading-color: #005f9e;
-  --link-color: #0066cc;
+  --link-color: #007acc;
 }
 </style>
+```
+# Product Documentation
 
-# Product Documentation  
-### Using Marp for Maintainable Presentations  
+### Using Marp for Maintainable Presentations
+
 **Author:** 24f2007572@ds.study.iitm.ac.in
 
----
+------------------------------------------------------------------------
 
 ## Why Marp?
-- Write presentations in **Markdown**
-- Store version-controlled documentation in Git repos
-- Export to **PDF, PPTX, HTML**
-- Custom themes and full CSS control  
-- Friendly for technical writers and developers
 
----
+-   Markdown-native presentation workflow\
+-   Version-controlled documentation\
+-   Export to **PDF, PPTX, HTML**\
+-   Full CSS theming\
+-   Perfect for engineering documentation
+
+------------------------------------------------------------------------
 
 ## Custom Theme Features
-<div class="highlight-box">
 
-- Corporate-aligned color scheme  
-- Typography overrides  
-- Styled callouts and code blocks  
-- Enhanced layout control through CSS  
+::: highlight-box
+-   Corporate-consistent color scheme\
+-   Typography customization\
+-   Styled callouts & boxes\
+-   Reusable theme via version control
+:::
 
-</div>
-
----
+------------------------------------------------------------------------
 
 ## Algorithmic Complexity Example
 
-We can embed LaTeX formulas using Marp’s math support:
+### Binary Search:
 
-### Time Complexity
+\[ T(n) = O(`\log `{=tex}n) \]
 
-For a binary search operation:
+### Divide and Conquer:
 
-\[
-T(n) = O(\log n)
-\]
+\[ T(n) = 2T(n/2) + n = O(n `\log `{=tex}n) \]
 
-### More complex recurrence:
-
-\[
-T(n) = 2T\left(\frac{n}{2}\right) + n 
-\Rightarrow T(n) = O(n \log n)
-\]
-
----
+------------------------------------------------------------------------
 
 ## Background Image Slide
 
-<!-- Set a background image (replace the URL/path to your own asset) -->
 ![bg](https://picsum.photos/1600/900)
 
-# Visual Enhancements
+# Slide With Background
 
-The background image can be full-slide and still allow
-normal text formatting using Marp directives.
+This slide uses a full-screen background image.
 
----
+------------------------------------------------------------------------
 
 ## Code Example
 
-```python
+``` python
 def fetch_data():
-    """Fetches API data with caching."""
+    \"\"\"Fetches API data with caching.\"\"\"
     if cache.exists():
         return cache.load()
     data = api.request("/endpoint")
     cache.save(data)
     return data
+```
 
+------------------------------------------------------------------------
+
+## Contact
+
+📧 **24f2007572@ds.study.iitm.ac.in**
+
+------------------------------------------------------------------------
+
+# Thank You!

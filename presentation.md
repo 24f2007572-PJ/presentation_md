@@ -5,6 +5,8 @@ author: 24f2007572@ds.study.iitm.ac.in
 paginate: true
 theme: custom-theme
 ---
+<!-- theme: custom-theme -->
+<!-- paginate: true -->
 
 <!--
 Custom Theme Definition
@@ -119,3 +121,4 @@ def fetch_data():
     data = api.request("/endpoint")
     cache.save(data)
     return data
+

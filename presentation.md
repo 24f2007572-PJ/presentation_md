@@ -1,7 +1,14 @@
 ---
 author: 24f2007572@ds.study.iitm.ac.in
+email: 24f2007572@ds.study.iitm.ac.in
 paginate: true
 title: Product Documentation Overview
+# Product Documentation
+
+**Email:** 24f2007572@ds.study.iitm.ac.in
+
+---
+
 ---
 
 ```{=html}
@@ -113,3 +120,4 @@ def fetch_data():
 ------------------------------------------------------------------------
 
 # Thank You!
+
